@@ -60,7 +60,13 @@ const skills = [{
     }
 ];
 
-const dataportfolio = [{
+const dataportfolio = [
+    {
+        img: "/images/petstagram.png",
+        desctiption: "Petstagram",
+        link: "https://petstagram-sei.surge.sh/",
+    },
+    {
         img: "/images/Gather.png",
         desctiption: "Gather",
         link: "https://junspark-gather-app.netlify.app/",
@@ -70,11 +76,6 @@ const dataportfolio = [{
         desctiption: "The Journey Of Maru",
         link: "https://the-journey-of-maru.netlify.app/",
     },
-    {
-        img: "/images/petstagram.png",
-        desctiption: "Petstagram",
-        link: "https://petstagram-sei.surge.sh/",
-    }
 ];
 
 const contactConfig = {
@@ -99,7 +100,6 @@ export {
     dataportfolio,
     worktimeline,
     skills,
-    services,
     introdata,
     contactConfig,
     socialprofils,
