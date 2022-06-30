@@ -18,20 +18,15 @@ const dataabout = {
     aboutme: "Seoul, San Frnacisco, and New York",
 };
 const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
+        jobtitle: "Software Engineer",
+        where: "General Assembly",
+        date: "Apr 2022 - Present",
     },
     {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
-    },
-    {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
-    },
+        jobtitle: "Architectural Lighting Designer",
+        where: "L'Observatoire International",
+        date: "Aug 2018 - Mar 2022",
+    }
 ];
 
 const skills = [{
