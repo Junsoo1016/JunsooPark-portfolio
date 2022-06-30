@@ -44,16 +44,20 @@ const skills = [{
     },
     {
         name: "Javascript",
-        value: 80,
+        value: 90,
     },
     {
         name: "React",
-        value: 60,
+        value: 90,
     },
     {
-        name: "Jquery",
-        value: 85,
+        name: "MongoDB",
+        value: 90,
     },
+    {
+        name: "Java",
+        value: 80,
+    }
 ];
 
 const services = [{
@@ -73,7 +77,7 @@ const services = [{
 const dataportfolio = [{
         img: "/images/Gather.png",
         desctiption: "Gather",
-        link: "https://junpark-gather-app.netlify.app/",
+        link: "https://junspark-gather-app.netlify.app/",
     },
     {
         img: "/images/Maru.png",
