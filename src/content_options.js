@@ -5,10 +5,9 @@ const meta = {
 };
 
 const introdata = {
-    title: "I’m Jun Soo Park",
     animated: {
-        first: "I am a software engineer",
-        second: "I love coding",
+        first: "I am Jun Soo Park",
+        second: "I am a software engineer",
         third: "I develop websites & mobile apps",
     },
     description: "Hi, my name is Junsoo Park and I am a New York-based software engineer and self-motivated learner with experience developing full stack applications. I love to solve problems using programmatic thinking and analytical skills. Transferable skills include project management, adaptability, teamwork, and effective communication. If you have any questions, please feel free to contact me.",
