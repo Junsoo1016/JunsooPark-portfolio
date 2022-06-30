@@ -60,20 +60,6 @@ const skills = [{
     }
 ];
 
-const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
-    {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
-    {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
-];
-
 const dataportfolio = [{
         img: "/images/Gather.png",
         desctiption: "Gather",
@@ -83,6 +69,11 @@ const dataportfolio = [{
         img: "/images/Maru.png",
         desctiption: "The Journey Of Maru",
         link: "https://the-journey-of-maru.netlify.app/",
+    },
+    {
+        img: "/images/petstagram.png",
+        desctiption: "Petstagram",
+        link: "https://petstagram-sei.surge.sh/",
     }
 ];
 
