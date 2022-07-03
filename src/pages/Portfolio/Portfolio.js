@@ -15,7 +15,7 @@ export const Portfolio = () => {
         </Helmet>
         <Row className="mb-5 mt-3">
           <Col lg="8">
-            <h1 className="display-4 mb-4"> Portfolio </h1>{" "}
+            <h1 className="display-4 mb-4" style={{textAlign: 'center'}}> Portfolio </h1>{" "}
             <hr className="t_border" />
           </Col>
         </Row>
