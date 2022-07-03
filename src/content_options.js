@@ -57,7 +57,7 @@ const skills = [{
 
 const dataportfolio = [
     {
-        img: "/images/petstagram.png",
+        img: "/images/Petstagram.png",
         desctiption: "Petstagram",
         link: "https://petstagram-sei.surge.sh/",
     },
