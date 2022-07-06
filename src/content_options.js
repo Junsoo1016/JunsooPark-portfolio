@@ -15,7 +15,7 @@ const introdata = {
 
 const dataabout = {
     title: "More about me - I'm from",
-    aboutme: "Seoul, San Frnacisco, and New York",
+    aboutme: "Seoul, San Francisco, and New York",
 };
 const worktimeline = [{
         jobtitle: "Software Engineer",
@@ -30,28 +30,22 @@ const worktimeline = [{
 ];
 
 const skills = [{
-        name: "Python",
-        value: 90,
+        name: "Python"
     },
     {
-        name: "Djano",
-        value: 85,
+        name: "Djano"
     },
     {
-        name: "Javascript",
-        value: 90,
+        name: "Javascript"
     },
     {
-        name: "React",
-        value: 90,
+        name: "React"
     },
     {
-        name: "MongoDB",
-        value: 90,
+        name: "MongoDB"
     },
     {
-        name: "Java",
-        value: 80,
+        name: "Java"
     }
 ];
 
@@ -84,11 +78,9 @@ const contactConfig = {
 
 const socialprofils = {
     github: "https://github.com/Junsoo1016",
-    facebook: "https://facebook.com",
-    linkedin: "https://www.linkedin.com/in/junsoopark92",
-    youtube: "https://youtube.com",
-
+    linkedin: "https://www.linkedin.com/in/junsoopark92"
 };
+
 export {
     meta,
     dataabout,
