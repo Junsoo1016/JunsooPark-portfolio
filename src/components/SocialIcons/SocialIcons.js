@@ -25,7 +25,7 @@ export const Socialicons = (params) => {
           </li>
         )}
       </ul>
-      <p>Connect With Me</p>
+      <p id="connectWithMe">Connect With Me</p>
     </div>
   );
 };

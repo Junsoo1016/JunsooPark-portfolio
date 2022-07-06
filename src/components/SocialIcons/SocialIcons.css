@@ -2,7 +2,7 @@
     top: 50%;
     left: 30px;
     width: 20px;
-    height: 200px;
+    height: 100px;
     position: fixed;
     margin-top: -100px;
 }
@@ -14,8 +14,8 @@
 }
 
 .stick_follow_icon svg {
-    width: 1.3em;
-    height: 1.3em;
+    width: 15px;
+    height: 15px;
     fill: var(--text-color)
 }
 
@@ -27,7 +27,7 @@
     color: var(--text-color);
     font-size: 12px;
     font-weight: 600;
-    line-height: 1.2;
+    line-height: 1.6;
     white-space: nowrap;
     position: relative;
     transform: rotate( -90deg);
@@ -42,14 +42,18 @@
 }
 
 .stick_follow_icon p:after {
-    top: 9px;
-    right: -48px;
-    width: 40px;
+    top: 10px;
+    right: -50px;
+    width: 10px;
     height: 1px;
     content: "";
     display: block;
     position: absolute;
     background-color: var(--text-color);
+}
+
+#connectWithMe {
+
 }
 
 @media only screen and (max-width: 991px) {
@@ -82,5 +86,15 @@
         display: inline;
         margin-bottom: 29px;
         margin-right: 10px;
+    }
+    .stick_follow_icon p:after {
+        top: 7px;
+        right: -50px;
+        width: 40px;
+        height: 1px;
+        content: "";
+        display: block;
+        position: absolute;
+        background-color: var(--text-color);
     }
 }
