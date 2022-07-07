@@ -33,13 +33,19 @@ const skills = [{
         name: "Python"
     },
     {
-        name: "Djano"
+        name: "Django"
     },
     {
         name: "Javascript"
     },
     {
         name: "React"
+    },
+    {
+        name: "Node.js"
+    },
+    {
+        name: "Express.js"
     },
     {
         name: "MongoDB"
