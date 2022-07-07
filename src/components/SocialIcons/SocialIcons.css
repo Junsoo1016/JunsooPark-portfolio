@@ -88,13 +88,17 @@
         margin-right: 10px;
     }
     .stick_follow_icon p:after {
-        top: 7px;
+        top: 14px;
         right: -50px;
-        width: 40px;
+        width: 37px;
         height: 1px;
         content: "";
         display: block;
         position: absolute;
         background-color: var(--text-color);
+    }
+    
+    #connectWithMe {
+        bottom: 8px;
     }
 }
