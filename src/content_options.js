@@ -1,3 +1,5 @@
+import React from "react";
+
 const logotext = "Junsoo Park";
 const meta = {
     title: "Jun Park",
@@ -60,16 +62,19 @@ const dataportfolio = [
         img: "/images/Petstagram.png",
         desctiption: "Petstagram",
         link: "https://petstagram-sei.surge.sh/",
+        tools: "'React.js', 'Node.js', 'Express.js', 'MongoDB'" 
     },
     {
         img: "/images/Gather.png",
         desctiption: "Gather",
         link: "https://junspark-gather-app.netlify.app/",
+        tools: "'React.js', 'Node.js', 'Express.js', 'MongoDB'"
     },
     {
         img: "/images/Maru.png",
         desctiption: "The Journey Of Maru",
         link: "https://the-journey-of-maru.netlify.app/",
+        tools: "'HTML / CSS', 'JavaScript'"
     },
 ];
 

@@ -1,6 +1,6 @@
 
 .po_item {
-    display: inline-block;
+    display: flex;
     width: 80%;
     height: auto;
     text-align: center;
