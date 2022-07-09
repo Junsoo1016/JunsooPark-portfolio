@@ -12,8 +12,8 @@ const AnimatedSwitch = withRouter(({ location }) => (
     <CSSTransition
       key={location.key}
       timeout={{
-        enter: 400,
-        exit: 400,
+        enter: 2000,
+        exit: 2000,
       }}
       classNames="page"
       unmountOnExit

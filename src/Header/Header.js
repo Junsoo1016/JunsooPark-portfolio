@@ -20,16 +20,16 @@ const Header = () => {
             {logotext}
           </Link>
           
-          <button className="menu__button  nav_ac" onClick={handleToggle}>
+          <button className="menuBtn  nav_ac" onClick={handleToggle}>
             {isActive ? <VscClose /> : <VscMenu />}
           </button>
         </div>
 
-        <div className={isActive ? "menu__opend" : "menu__closed"}>
-          <div>
-              <div className="menu__container">
+        <div className={isActive ? "menu__opend" : ""}>
+          <div className="menu__container">
+              <div>
                 <ul className="the_menu">
-                  <li className="menu_item ">
+                  <li className="menu_item">
                   <Link  onClick={handleToggle} to="/" className="my-3">Home</Link>
                   </li>
                   <li className="menu_item">
@@ -42,10 +42,12 @@ const Header = () => {
                   <Link onClick={handleToggle} to="/contact" className="my-3"> Contact</Link>
                   </li>
                 </ul>
-              </div>
+                </div>
+                <div className="footer">
+                  <p className="copyright">copyright __ {logotext}</p>
+               </div>
           </div>
-            <p className="copyright m-0">copyright __ {logotext}</p>
-          </div>
+        </div>
       </header>     
     </>
   );
