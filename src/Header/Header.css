@@ -91,8 +91,20 @@
     justify-content: center;
 }
  
-@media (min-width: 768px) {
+@media (max-width: 500px) {
     .the_menu .menu_item>a {
         font-size: 48px;
+    }
+
+    .logoText {
+        font-size: 18px;
+        font-weight: 700;
+        margin-left: 0;
+        color: black;
+        text-decoration: none;
+    }
+
+    .menuBtn {
+        margin-right: 0;
     }
 }
