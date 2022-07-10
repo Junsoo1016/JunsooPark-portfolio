@@ -26,26 +26,26 @@ const Header = () => {
         </div>
 
         <div className={isActive ? "menu__opend" : ""}>
-          <div className="menu__container">
-              <div>
+          <div className="menuOverall">
+              <div className="menu__container">
                 <ul className="the_menu">
                   <li className="menu_item">
-                  <Link  onClick={handleToggle} to="/" className="my-3">Home</Link>
+                  <Link  onClick={handleToggle} to="/" className="menuList">Home</Link>
                   </li>
                   <li className="menu_item">
-                    <Link onClick={handleToggle} to="/portfolio" className="my-3"> Portfolio</Link>
+                    <Link onClick={handleToggle} to="/portfolio" className="menuList"> Portfolio</Link>
                   </li>
                   <li className="menu_item">
-                  <Link onClick={handleToggle} to="/about" className="my-3">About</Link>
+                  <Link onClick={handleToggle} to="/about" className="menuList">About</Link>
                   </li>
                   <li className="menu_item">
-                  <Link onClick={handleToggle} to="/contact" className="my-3"> Contact</Link>
+                  <Link onClick={handleToggle} to="/contact" className="menuList"> Contact</Link>
                   </li>
                 </ul>
-                </div>
                 <div className="footer">
                   <p className="copyright">copyright __ {logotext}</p>
                </div>
+              </div>
           </div>
         </div>
       </header>     
