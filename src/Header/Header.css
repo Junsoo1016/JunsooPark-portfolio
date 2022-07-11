@@ -52,6 +52,7 @@
     align-items: center;
     justify-content: center;
     margin-top: 5%;
+    font-size: 48px;
 
 }
 
@@ -90,14 +91,14 @@
     display: flex;
     justify-content: center;
 }
- 
+
 @media (max-width: 500px) {
     .the_menu .menu_item>a {
-        font-size: 48px;
+        font-size: 36px;
     }
 
     .logoText {
-        font-size: 18px;
+        font-size: 24px;
         font-weight: 700;
         margin-left: 0;
         color: black;
