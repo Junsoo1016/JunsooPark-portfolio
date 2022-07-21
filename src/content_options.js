@@ -59,6 +59,12 @@ const skills = [{
 
 const dataportfolio = [
     {
+        img: "/images/Captain.png",
+        desctiption: "Captain Citizen America",
+        link: "https://captain-citizen-america.netlify.app/",
+        tools: " 'React.js', 'Python', 'Django' " 
+    },
+    {
         img: "/images/Petstagram.png",
         desctiption: "Petstagram",
         link: "https://petstagram-sei.surge.sh/",
