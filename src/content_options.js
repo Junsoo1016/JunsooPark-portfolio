@@ -19,10 +19,17 @@ const dataabout = {
     title: "More about me - I'm from",
     aboutme: "Seoul, San Francisco, and New York",
 };
-const worktimeline = [{
+
+const worktimeline = [
+    {
         jobtitle: "Software Engineer",
+        where: "LG CNS",
+        date: "Oct 2022 - Present",
+    },
+    {
+        jobtitle: "Software Engineer Trainee",
         where: "General Assembly",
-        date: "Apr 2022 - Present",
+        date: "Apr 2022 - Jul 2022",
     },
     {
         jobtitle: "Architectural Lighting Designer",
@@ -31,29 +38,30 @@ const worktimeline = [{
     }
 ];
 
-const skills = [{
+const skills = [
+    {
+        name: "Java"
+    },
+    {
+        name: "Spring Framework"
+    },
+    {
+        name: "PHP"
+    },
+    {
+        name: "Magento2"
+    },
+    {
+        name: "MySQL"
+    },
+    {
+        name: "Docker"
+    },
+    {
         name: "Python"
     },
     {
-        name: "Django"
-    },
-    {
-        name: "Javascript"
-    },
-    {
-        name: "React"
-    },
-    {
-        name: "Node.js"
-    },
-    {
-        name: "Express.js"
-    },
-    {
-        name: "MongoDB"
-    },
-    {
-        name: "Java"
+        name: "Next.js"
     }
 ];
 
